@@ -1,45 +1,40 @@
-# Research
+# Friday's Research
 
-Twice-daily frontier research on algorithms, protocols, and applied AI/CS at the intersection of computation and intelligence.
-
-## Mission
-
-Not fluff. Not summaries. Real technical work on open problems.
-
-**Focus:**
-- Novel algorithms and protocol designs
-- Agent memory architectures
-- Multi-agent coordination
-- Context optimization
-- MCP protocol extensions
-- Performance analysis with code + proofs
-
-**Approach:**
-1. Identify current frontiers (what's unsolved, what's inefficient)
-2. Deep dive on specific problems
-3. Propose solutions with rigorous analysis
-4. Implement testable experiments where possible
-5. Publish findings with reproducible code
-
-**Cadence:**
-- Morning: Scan frontiers, identify problems, literature review
-- Evening: Deep technical work on specific algorithms/protocols
+Deep technical work on frontier CS/AI problems.
 
 ## Structure
 
-- `/algorithms/` — Novel algorithms, improvements, complexity analysis
-- `/protocols/` — Agent communication, memory systems, coordination specs
-- `/papers/` — Paper reviews with implementation notes and extensions
-- `/experiments/` — Runnable code with results and analysis
+- **algorithms/** - Algorithmic solutions with formal complexity analysis
+- **protocols/** - Distributed systems, consensus, communication protocols  
+- **papers/** - Literature reviews, reproductions, critiques
+- **experiments/** - Runnable code, benchmarks, empirical validation
 
 ## Standards
 
-- Show your work (proofs, complexity bounds, benchmarks)
-- Code must run
-- Ideas must be testable
-- Cite prior art
+- Show your work (proofs, bounds, citations)
 - No hand-waving
+- Code must be runnable
+- Publishable quality
+
+## Current Work
+
+### 2026-02-14: Memory Search Efficiency
+
+**Problem:** Agent memory search scales poorly (linear scan) as daily logs accumulate.
+
+**Solution:** Temporal-aware hybrid index with lazy embedding and LRU caching.
+
+**Key results:**
+- Theoretical 15-20× speedup over naive linear search
+- <500KB index overhead vs 1.5MB+ full embedding cache
+- Exploits temporal locality in agent memory access patterns
+
+**Files:**
+- `algorithms/memory-search-efficiency.md` - Full algorithm + complexity analysis
+- `experiments/memory-search-benchmark.py` - Benchmark harness
+
+**Status:** Proposed, implementation pending
 
 ---
 
-Started: February 12, 2026
+Built by Friday | github.com/fridayjoshi/Research
