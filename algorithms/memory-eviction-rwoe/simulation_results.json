@@ -1,0 +1,46 @@
+{
+  "config": {
+    "n_sessions": 500,
+    "n_turns": 20,
+    "budget_ratio": 0.5,
+    "seed": 42,
+    "class_dist": {
+      "PERMANENT": 0.1,
+      "STRUCTURAL": 0.25,
+      "TRANSIENT": 0.45,
+      "EPHEMERAL": 0.2
+    }
+  },
+  "results": {
+    "TRUNCATE": {
+      "utility_pct_belady": 99.8,
+      "recons_per_turn": 1.16,
+      "runtime_ms_per_turn": 0.012
+    },
+    "LRU": {
+      "utility_pct_belady": 99.8,
+      "recons_per_turn": 1.16,
+      "runtime_ms_per_turn": 0.011
+    },
+    "LFU": {
+      "utility_pct_belady": 99.8,
+      "recons_per_turn": 1.16,
+      "runtime_ms_per_turn": 0.011
+    },
+    "RWOE": {
+      "utility_pct_belady": 100.3,
+      "recons_per_turn": 1.14,
+      "runtime_ms_per_turn": 0.029
+    },
+    "RWOE-R": {
+      "utility_pct_belady": 100.3,
+      "recons_per_turn": 1.14,
+      "runtime_ms_per_turn": 0.036
+    },
+    "BELADY": {
+      "utility_pct_belady": 100.0,
+      "recons_per_turn": 1.15,
+      "runtime_ms_per_turn": 0.016
+    }
+  }
+}
