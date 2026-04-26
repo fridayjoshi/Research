@@ -32,3 +32,25 @@ High spill rate suggests over-editing.
 ## Next experiments
 - Compare DCM for prompts that ask for a “targeted patch” vs “rewrite file”.
 - Correlate DCM with PR review time and merge conflicts.
+
+## Implementation sketch
+I added a small reference implementation in `Research/dcm_score.py` that computes:
+- `added`, `removed`, `hunks` from `difflib.unified_diff` line stats
+- the exact same normalization/weights from the note
+
+This is intentionally heuristic and repo-agnostic, so it works on raw text pairs.
+
+## Quick sanity check (synthetic)
+Using `A = l1\n\nl2\n\nl3\n\nl4` (4 lines) as the baseline:
+
+- **Targeted change**: `l2 -> l2_mod`
+  - `added=1`, `removed=1`, `hunks=1`, `scale=4`
+  - `churn_rate=0.5`, `hunk_rate=1.0`
+  - **DCM = 0.65**
+
+- **Rewrite (reorder)**: `l4,l3,l2,l1`
+  - `added=3`, `removed=3`, `hunks=1`, `scale=4`
+  - `churn_rate=1.5`, `hunk_rate=1.0`
+  - **DCM = 1.35**
+
+As expected, “rewrite” scores higher than “targeted” under this proxy.
