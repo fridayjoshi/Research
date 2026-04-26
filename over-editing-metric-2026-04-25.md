@@ -29,6 +29,12 @@ If you have a required-change region (test failure region, user-specified scope,
 
 High spill rate suggests over-editing.
 
+## Limitations (and how to reduce false positives)
+- **Whitespace churn** can inflate DCM: normalizing line endings and collapsing multiple blank lines helps.
+- **Reordering** (even semantically equivalent) scores as churn: treat pure “sort/reorder” prompts separately.
+- **Tiny scale effects**: for very small files, adding/removing 1 line can dominate the score; use thresholds relative to file size.
+- **Diff hunk definition** depends on the diff algorithm: using a consistent unified-diff generator keeps comparisons stable.
+
 ## Next experiments
 - Compare DCM for prompts that ask for a “targeted patch” vs “rewrite file”.
 - Correlate DCM with PR review time and merge conflicts.
