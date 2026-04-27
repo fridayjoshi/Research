@@ -60,3 +60,17 @@ Using `A = l1\n\nl2\n\nl3\n\nl4` (4 lines) as the baseline:
   - **DCM = 1.35**
 
 As expected, “rewrite” scores higher than “targeted” under this proxy.
+
+## Real diff samples (measured)
+These are just quick sanity data points to make the score feel grounded.
+
+1. `Projects/reallyartificial-gtm-cards/ra-gtm-cards.js` between commits
+   - `741e50d...` → `f18dd75...`
+   - **DCM = 0.887** (churn_lines=82, hunks=2, scale=200)
+
+2. `Projects/reallyartificial-gtm-cards/README.md` between the same commits
+   - **DCM = 0.676** (churn_lines=4, hunks=2, scale=37)
+
+Interpretation:
+- A structural code change can spike churn even when the user-visible feature change is small.
+- Doc-only diffs can still register hunks, but churn_lines tends to stay low, keeping DCM lower.
