@@ -1,0 +1,48 @@
+IN-USE  BSSID              SSID                              MODE   CHAN  RATE        SIGNAL  BARS  SECURITY  
+        3A:68:93:36:29:80  --                                Infra  10    270 Mbit/s  100     ****  WPA2      
+        36:68:93:36:29:80  Wi Believe I Can Fi_Guest         Infra  10    270 Mbit/s  100     ****  WPA2 WPA3 
+        30:68:93:36:29:80  Wi Believe I Can Fi               Infra  10    270 Mbit/s  100     ****  WPA2 WPA3 
+        72:83:94:BC:51:C7  Totoro                            Infra  6     270 Mbit/s  79      ***   WPA2      
+        7E:78:95:CB:F0:06  --                                Infra  10    130 Mbit/s  79      ***   WPA2      
+        3C:78:95:CB:F0:06  Totoro’s Room                     Infra  10    130 Mbit/s  79      ***   WPA2      
+        D8:44:89:A3:C5:FE  --                                Infra  7     270 Mbit/s  77      ***   WPA2      
+        DA:44:89:23:C5:FE  TPMesh                            Infra  7     270 Mbit/s  74      ***   WPA2      
+        30:68:93:36:29:81  Wi Believe I Can Fi               Infra  44    270 Mbit/s  74      ***   WPA2 WPA3 
+        36:68:93:36:29:81  Wi Believe I Can Fi_Guest         Infra  44    270 Mbit/s  74      ***   WPA2 WPA3 
+        3E:68:93:36:29:81  Wi Believe I Can Fi_MLO           Infra  44    270 Mbit/s  74      ***   WPA3      
+        3A:68:93:36:29:81  --                                Infra  44    270 Mbit/s  74      ***   WPA2      
+        42:52:A1:04:F3:06  mkck103mesh_Guest                 Infra  8     270 Mbit/s  60      ***   WPA2      
+        AC:84:C6:CC:C4:D9  TPMesh_EXT                        Infra  7     540 Mbit/s  59      ***   WPA1 WPA2 
+        DA:44:89:83:C5:FE  TPMesh                            Infra  48    270 Mbit/s  59      ***   WPA2      
+        D8:44:89:A3:C5:FF  --                                Infra  48    270 Mbit/s  59      ***   WPA2      
+        3C:52:A1:04:F3:06  mkck103mesh                       Infra  8     270 Mbit/s  57      ***   WPA2      
+        98:25:4A:25:26:1A  PrasadE304                        Infra  7     270 Mbit/s  54      **    WPA2      
+        1C:61:B4:EA:4B:06  SS-102JioR                        Infra  5     270 Mbit/s  52      **    WPA2      
+        40:E1:E4:91:39:2A  Dipankar                          Infra  7     130 Mbit/s  52      **    WPA2      
+        3C:6A:D2:6D:1D:E6  Connected to Adiyogi              Infra  9     270 Mbit/s  52      **    WPA2      
+        F4:F6:47:44:1C:58  Piyu                              Infra  1     130 Mbit/s  49      **    WPA1 WPA2 
+        3C:46:45:09:B7:CC  Airtel_Lalitha APR                Infra  1     270 Mbit/s  45      **    WPA1 WPA2 
+        8C:86:DD:27:DE:9E  B903                              Infra  4     130 Mbit/s  44      **    WPA2      
+        D8:47:32:7A:A4:58  Pallavi                           Infra  6     270 Mbit/s  44      **    WPA2      
+        BA:B0:24:77:BB:72  --                                Infra  2     270 Mbit/s  42      **    WPA2      
+        F6:F6:47:54:1C:58  Piyu_5G                           Infra  1     130 Mbit/s  37      **    WPA1 WPA2 
+        A6:F3:3B:52:2A:18  Indranil1_5G                      Infra  1     130 Mbit/s  34      **    WPA1 WPA2 
+        7E:D2:94:46:00:83  ORBI76                            Infra  13    130 Mbit/s  32      **    WPA2      
+        E4:66:AB:7A:44:0C  Airtel_prem_9752                  Infra  36    270 Mbit/s  30      *     WPA1 WPA2 
+        1C:61:B4:EA:4B:07  SS-102JioR                        Infra  44    270 Mbit/s  30      *     WPA2      
+        A6:F3:3B:52:2A:1A  Indranil1_5G                      Infra  36    270 Mbit/s  29      *     WPA1 WPA2 
+        98:25:4A:25:26:1B  PrasadE304                        Infra  44    270 Mbit/s  29      *     WPA2      
+        A4:F3:3B:42:2A:1A  Indranil1                         Infra  36    270 Mbit/s  27      *     WPA1 WPA2 
+        22:61:B4:EA:4B:07  --                                Infra  44    270 Mbit/s  27      *     WPA2      
+        28:87:BA:35:8E:8F  Leena                             Infra  40    270 Mbit/s  25      *     WPA2      
+        CA:07:1D:47:39:E1  Wi Believe I Can Fi_MLO           Infra  44    270 Mbit/s  25      *     WPA3      
+        E4:C3:2A:20:E2:9F  dimaag-kharab-hai                 Infra  44    270 Mbit/s  25      *     WPA2      
+        BC:07:1D:47:39:E1  Wi Believe I Can Fi               Infra  44    270 Mbit/s  25      *     WPA2 WPA3 
+        EE:C3:2A:20:E2:9F  --                                Infra  44    270 Mbit/s  24      *     WPA2      
+        3C:6A:D2:6D:1D:E7  Connected to Adiyogi              Infra  48    270 Mbit/s  24      *     WPA2      
+        76:FE:CE:82:55:FE  It's our wifi                     Infra  40    270 Mbit/s  22      *     WPA2      
+        9E:25:4A:25:25:4F  --                                Infra  44    270 Mbit/s  22      *     WPA2      
+        42:6A:D2:6D:1D:E7  --                                Infra  48    270 Mbit/s  22      *     WPA2      
+        46:52:A1:04:F3:07  --                                Infra  36    270 Mbit/s  20      *     WPA2      
+        B8:19:04:DC:35:AD  May the bandwidth be with you_5G  Infra  40    270 Mbit/s  19      *     WPA1 WPA2 
+        0E:36:23:61:CE:3A  Airtel_prav_6442                  Infra  48    270 Mbit/s  17      *     WPA2      
