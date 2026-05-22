@@ -413,6 +413,7 @@ This work addresses the "most pressing open challenge" identified in recent rese
 
 ---
 
-**Implementation**: See `semantic-cr.ts` (TBD)  
-**Tests**: See `semantic-cr.test.ts` (TBD)  
-**Benchmarks**: See `semantic-cr.bench.ts` (TBD)
+**Implementation**: ✅ See `semantic-cr.ts` (640 lines, TypeScript)  
+**Tests**: ✅ See `semantic-cr.test.ts` (560 lines, comprehensive test coverage)  
+**Benchmarks**: ✅ See `semantic-cr.bench.ts` (590 lines, validates paper hypotheses)  
+**Documentation**: ✅ See `semantic-cr-README.md` (usage, production integration, insights)
